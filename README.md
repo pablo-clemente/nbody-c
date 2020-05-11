@@ -1,8 +1,16 @@
+# Alpha Centauri
+Alpha Centauri is the closest star system to the Sun, located at a distance of just 4.37 light years or 1.34 parsecs from Earth. The system consists of Alpha Centauri A and Alpha Centauri B. It is sometimes known as Alpha Centauri AB (α Cen AB).
+
 # Alpha Centauri Orbit Simulation
 We aim to compare the runtime for Alpha Centauri binary star system orbit simulation using the N-body model previously performed in Python(Interpreted) now implemented in C (Compiled).
 
-# Alpha Centauri
-Alpha Centauri is the closest star system to the Sun, located at a distance of just 4.37 light years or 1.34 parsecs from Earth. The system consists of Alpha Centauri A and Alpha Centauri B. It is sometimes known as Alpha Centauri AB (α Cen AB).
+### N-body benchmarks by time
+| x | source   |  secs |   mem |   gz |  cpu |   cpu load   | 
+|---|----------|:-----:|:-----:|:----:|:----:|:------------:|
+|1.1| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
+|102| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
+
+souce: http://benchmarksgame.wildervanck.eu/nbody.html
 
 ## Interpreted vs Compiled Programming Languages
 In a compiled language, the target machine directly translates the program. In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, also know as the interpreter, reads and executes the code.
@@ -14,14 +22,6 @@ Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
 ### Interpreted Languages
 Interpreters run through a program line by line and execute each command.
 Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
-
-### N-body benchmarks by time
-| x | source   |  secs |   mem |   gz |  cpu |   cpu load   | 
-|---|----------|:-----:|:-----:|:----:|:----:|:------------:|
-|1.1| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
-|102| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
-
-souce: http://benchmarksgame.wildervanck.eu/nbody.html
 
 # Prerequisites
 Code written in C 
