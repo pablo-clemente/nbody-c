@@ -16,10 +16,10 @@ Interpreters run through a program line by line and execute each command.
 Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
 
 ### N-body benchmarks by time
-| source   |  secs |   mem |   gz |  cpu |   cpu load   | 
-|----------|:-----:|:-----:|:----:|:----:|:------------:|
-| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
-| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
+| x | source   |  secs |   mem |   gz |  cpu |   cpu load   | 
+|---|----------|:-----:|:-----:|:----:|:----:|:------------:|
+|1.1| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
+|102| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
 
 souce: http://benchmarksgame.wildervanck.eu/nbody.html
 
