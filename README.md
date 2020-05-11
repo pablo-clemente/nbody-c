@@ -5,10 +5,10 @@ Alpha Centauri is the closest star system to the Sun, located at a distance of j
 We aim to compare the runtime for Alpha Centauri binary star system orbit simulation using the N-body model previously performed in Python(Interpreted) now implemented in C (Compiled).
 
 ### N-body benchmarks by time
-| x | source   |  secs |   mem |   gz |  cpu |   cpu load   | 
-|---|----------|:-----:|:-----:|:----:|:----:|:------------:|
-|1.1| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
-|102| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
+| x |  code source |  secs |   mem |   gz |  cpu |   cpu load   | 
+|---|--------------|:-----:|:-----:|:----:|:----:|:------------:|
+|1.1| __C__ gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
+|102| __Python__ 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
 
 souce: http://benchmarksgame.wildervanck.eu/nbody.html
 
