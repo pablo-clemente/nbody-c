@@ -14,3 +14,11 @@ Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
 ## Interpreted Languages
 Interpreters run through a program line by line and execute each command.
 Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
+
+# Prerequisites
+Code written in C 
+Please see the file [requirements.txt] (requirements.txt) for more details.
+
+# License
+This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details
+
