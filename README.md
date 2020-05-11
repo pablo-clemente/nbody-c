@@ -1,11 +1,5 @@
 # Alpha Centauri Orbit Simulation
 We aim to compare the runtime for Alpha Centauri binary star system orbit simulation using the N-body model previously performed in Python(Interpreted) now implemented in C (Compiled).
-### N-body benchmarks by time
-| source   |  secs |   mem |   gz |  cpu |   cpu load   | 
-|----------|:-----:|:-----:|:----:|:----:|:------------:|
-| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
-| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
- souce: http://benchmarksgame.wildervanck.eu/nbody.html
 
 # Alpha Centauri
 Alpha Centauri is the closest star system to the Sun, located at a distance of just 4.37 light years or 1.34 parsecs from Earth. The system consists of Alpha Centauri A and Alpha Centauri B. It is sometimes known as Alpha Centauri AB (α Cen AB).
@@ -20,6 +14,14 @@ Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
 ### Interpreted Languages
 Interpreters run through a program line by line and execute each command.
 Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
+
+### N-body benchmarks by time
+| source   |  secs |   mem |   gz |  cpu |   cpu load   | 
+|----------|:-----:|:-----:|:----:|:----:|:------------:|
+| C gcc #4 |  9.12 | 1,176 | 1490 | 9.12 | 1% 100% 2% 2%|
+| Python 3 | 13 min| 10,324| 1196 |13 min| 95% 1% 5% 0% |
+
+souce: http://benchmarksgame.wildervanck.eu/nbody.html
 
 # Prerequisites
 Code written in C 
