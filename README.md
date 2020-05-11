@@ -17,7 +17,7 @@ Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.
 
 # Prerequisites
 Code written in C 
-Please see the file [requirements.txt] (requirements.txt) for more details.
+Please see the file [requirements.txt](requirements.txt) for more details.
 
 # License
 This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details
