@@ -35,7 +35,7 @@ Please see the file [requirements.txt](requirements.txt) for more details.
 
 # Comparing results
 ## Python
-<img src="alpha_centauri.png" width:100px"/>
+<img src="alpha_centauri.png" width:100px />
 
 ## C
 ![](AlphaCenteuri1.gif)
