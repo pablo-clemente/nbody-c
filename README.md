@@ -38,7 +38,7 @@ Please see the file [requirements.txt](requirements.txt) for more details.
 <img src="alpha_centauri.png" width:100px />
 
 ## C
-![](AlphaCenteuri1.gif)
+![](AlphaCenteuri2.gif)
 
 
 # License
