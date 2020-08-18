@@ -34,6 +34,11 @@ Please see the file [requirements.txt](requirements.txt) for more details.
 |2| __C__ gcc #4 |  20.50 min | 
 
 # Comparing results
+## Python
+![img](alpha_centauri.png)
+
+## C
+![](AlphaCenteuri1.gif)
 
 
 # License
